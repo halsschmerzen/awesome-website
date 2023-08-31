@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* HEADER */
+.header-container {
+    color: #fff;
+    background-color: #1F2937;
+    padding: 25px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    /* border: 1px solid white; */
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.button-container {
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: flex-end;
+    margin-left:400px;
+    margin-top: 5px;
+}
+#title-text {
+    margin-left: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#header-button {
+    font-size: 14px;
+    margin-left: 30px;
+}
+
+/* HEADER END */
+
+/* MAIN CONTAINER */
+
+.main-container {
+    color: #fff;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    /* border: 3px solid wheat; */
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-info {
+    word-break: break-all;
+}
+
+.main-info div{
+    display: flex;
+    justify-content: left;
+    flex: 1;
+}
+
+.main-image {
+    width: fit-content;
+    height: fit-content;
+
+}
+
+#main-title {
+    font-size: 48px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;;
+}
+
+#main-text {
+    font-size: 24px;
+    display: flex;
+    justify-content: left;
+}
+
+#main-button {
+    margin-top: 10px;
+    width: 20%;
+    height: 10%;
+}
+
+/* MAIN CONTAINER END */
+
