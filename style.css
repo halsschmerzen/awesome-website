@@ -61,16 +61,9 @@
     word-break: break-all;
 }
 
-.main-info div{
-    display: flex;
-    justify-content: left;
-    flex: 1;
-}
-
 .main-image {
     width: fit-content;
     height: fit-content;
-
 }
 
 #main-title {
@@ -80,16 +73,153 @@
 }
 
 #main-text {
-    font-size: 24px;
+    font-size: 18px;
     display: flex;
     justify-content: left;
 }
 
 #main-button {
     margin-top: 10px;
-    width: 20%;
-    height: 10%;
+    width: 15%;
+    height: 11%;
+
+    border: none;
+    border-radius: 8px;
+    color:antiquewhite;
+    background-color: rgb(25, 147, 228);
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+
 }
 
 /* MAIN CONTAINER END */
 
+/* RANDOM INFO CONTAINER */
+#center-text {
+    font-size: 26px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+    text-align: center;
+    color: black;
+    
+}
+
+.info-illustration {
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 75%;
+    gap: 16px;
+    display: flex;
+
+}
+
+.info-illustration div {
+    
+    border-radius: 6px;
+    /* border: 1px solid rgba(119, 119, 173, 0.144); */
+    height: 150px;
+    flex: 1;
+
+}
+
+.info-illustration img {
+    width: 150px;
+    margin-left: 20%;
+}
+
+.info-illustration p {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+/* RANDOM INFO CONTAINER END */
+
+/* INSPRING CONTAINER */
+
+
+.big-container {
+    display: flex;
+    margin-top: 12%;
+    width: 100%;
+    height: 400px;
+    background-color: rgba(119, 120, 121, 0.199);
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+}
+
+.quote {
+    justify-content: left;
+    word-break: break-all;
+    font-size: 30px;
+    font-weight: lighter;
+    margin-top: 150px;
+}
+
+#author {
+    margin-top: 250px;
+    justify-content: right;
+    font-weight: bold;
+}
+
+/* INSPRING CONTAINER END */
+
+/* SIGN UP */
+
+.sign-container {
+    display: flex;
+    margin-top: 100px;
+    margin-left: 10%;
+    background-color:royalblue;
+    border-radius: 8px;
+    width: 75%;
+    padding: 20px;
+}
+
+.sign-text {
+    margin-left: 10%;
+    margin-right: 10%;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sign-button {
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    border-color: 2px solid white;
+    border-radius: 10px;
+    margin-top: 2%;
+    margin-right: 2%;
+    background-color: royalblue;
+    width: 15%;
+    height: 40px;
+    cursor: pointer;
+}
+
+#sgn {
+    font-weight: 350;
+}
+
+/* SIGN UP END */
+
+/* FOOTER SECTION */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    margin-top: 120px;
+    padding: 50px;
+}
+
+.footer p {
+    color: white;
+}
+
+/* FOOTER SECTION END */
